@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "runAllScriptsChrome":"npx cypress run --spec cypress/integration/*.js --headed chrome",
-    "runContactUS":"npx cypress run --spec cypess/integration/ContactPage.js --headed chrome"
+    "runContactUS":"npx cypress run --spec cypress/integration/ContactPage.js --headed chrome"
   },
   "author": "Siddharth",
   "license": "ISC",
