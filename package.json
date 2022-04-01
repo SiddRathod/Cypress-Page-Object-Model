@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runAllScriptsChrome":"npx cypress run --spec cypress/integration/*.js --headed chrome",
-    "runContactUS":"npx cypress run --spec cypress/integration/ContactPage.js --headed chrome"
+    "runAllScriptsChrome": "npx cypress run --spec cypress/integration/*.js --headed chrome",
+    "runContactUS": "npx cypress run --spec cypress/integration/ContactPage.js --headed chrome"
   },
   "author": "Siddharth",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.2"
+    "cypress": "^9.5.2",
+    "cypress-mochawesome-reporter": "^3.0.0"
   }
 }

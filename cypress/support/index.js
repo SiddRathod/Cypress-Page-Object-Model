@@ -25,3 +25,5 @@ beforeEach(function(){
 })
 
 ///<reference types="Cypress"/>
+
+import 'cypress-mochawesome-reporter/register';

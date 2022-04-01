@@ -1,5 +1,6 @@
 {
     "baseUrl": "https://webdriveruniversity.com/",
     "chromeWebSecurity":false,
-    "ignoreTestFiles":"**/integration/noggin.js"
+    "ignoreTestFiles":"**/integration/noggin.js",
+    "reporter": "cypress-mochawesome-reporter"
 }
