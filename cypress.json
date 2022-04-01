@@ -2,5 +2,10 @@
     "baseUrl": "https://webdriveruniversity.com/",
     "chromeWebSecurity":false,
     "ignoreTestFiles":"**/integration/noggin.js",
-    "reporter": "cypress-mochawesome-reporter"
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Page Object Model"
+      }
 }
