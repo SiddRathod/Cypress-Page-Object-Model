@@ -1,0 +1,9 @@
+{
+    "firstname":"MS",
+    "lastname":"Dhoni",
+    "emailaddress":"dhoni07@gmail.com",
+    "comments":"I am a cricketer",
+    "expectedmessage":"Thank You for your Message!",
+    "errormessage1":" Error: all fields are required",
+    "errormessage2":" Error: Invalid email address"
+}

@@ -1,0 +1,10 @@
+[{
+  "name": "admin1",
+  "password": "admin1",
+  "expectedvalidationmsg":"validation failed"
+},
+{
+  "name": "valid",
+  "password": "valid",
+  "expectedvalidationmsg":"validation failed"
+}]

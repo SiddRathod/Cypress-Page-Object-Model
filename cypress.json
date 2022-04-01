@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://webdriveruniversity.com/",
+    "chromeWebSecurity":false,
+    "ignoreTestFiles":"**/integration/noggin.js"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pageobjectmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runAllScriptsChrome":"npx cypress run --spec cypress/integration/*.js --headed chrome"
+  },
+  "author": "Siddharth",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  }
+}
